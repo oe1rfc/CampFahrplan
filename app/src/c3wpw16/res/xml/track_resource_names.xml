@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map linked="true">
+	<entry key="Behörden und Unternehmen">bu</entry>
+	<entry key="Datenschutz">ds</entry>
+	<entry key="Digital Life">dl</entry>
+	<entry key="Media Literacy">ml</entry>
+	<entry key="Privatsphäre im digitalen Zeitalter">pp</entry>
+	<entry key="Tracking">tr</entry>
+	<entry key="Verschlüsselung">en</entry>
+</map>

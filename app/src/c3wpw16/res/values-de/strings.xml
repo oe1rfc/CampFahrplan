@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Privacy Week Fahrplan</string>
+    <string name="conference_url">
+        <![CDATA[<a href="https://privacyweek.at/">https://privacyweek.at/</a>]]>
+    </string>
+    <string name="source_code">
+        <![CDATA[<a href="https://github.com/oe1rfc/CampFahrplan">Quellcode</a>]]>
+    </string>
+    <string name="google_play_store">
+    </string>
+    <string name="copyright_notes">Copyright 2016 Clemens Hopfer\nCopyright 2015 Daniel Dorau.\nCopyright 2015 SubOptimal, entropynil, johnjohndoe.\nPortions Copyright 2008-2011 The K-9 Dog Walkers and 2006-2013 the Android Open Source Project.</string>
+    <string name="copyright_logo">Die Privacyweek ist eine Veranstaltungsreihe, die der„Chaos Computer Club Wien (C3W) im Zeitraum 24.-30.10.2106 rund um das Thema „Privatsphäre im digitalen Zeitalter“ organisiert.</string>
+</resources>

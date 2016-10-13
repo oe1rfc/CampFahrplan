@@ -15,8 +15,8 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        versionCode 39
-        versionName "1.32.2"
+        versionCode 5
+        versionName "0.6"
         minSdkVersion 14
         targetSdkVersion 22
 
@@ -42,74 +42,31 @@ android {
     }
 
     signingConfigs {
-        ccc31c3 {
-            storeFile file(props['signing.ccc31c3-release.keystoreFilePath'])
-            storePassword props['signing.ccc31c3-release.keystorePassword']
-            keyAlias props['signing.ccc31c3-release.keyAlias']
-            keyPassword props['signing.ccc31c3-release.keyPassword']
-        }
-        camp2015 {
-            storeFile file(props['signing.camp2015-release.keystoreFilePath'])
-            storePassword props['signing.camp2015-release.keystorePassword']
-            keyAlias props['signing.camp2015-release.keyAlias']
-            keyPassword props['signing.camp2015-release.keyPassword']
-        }
-        ccc32c3 {
-            storeFile file(props['signing.ccc32c3-release.keystoreFilePath'])
-            storePassword props['signing.ccc32c3-release.keystorePassword']
-            keyAlias props['signing.ccc32c3-release.keyAlias']
-            keyPassword props['signing.ccc32c3-release.keyPassword']
+        c3wpw16 {
+            storeFile file(props['signing.c3wpw16-release.keystoreFilePath'])
+            storePassword props['signing.c3wpw16-release.keystorePassword']
+            keyAlias props['signing.c3wpw16-release.keyAlias']
+            keyPassword props['signing.c3wpw16-release.keyPassword']
         }
     }
 
     productFlavors {
-        ccc31c3 {
-            applicationId "nerd.tuxmobil.fahrplan.congress"
-            signingConfig signingConfigs.ccc31c3
-            buildConfigField "String", "SCHEDULE_URL", '"https://events.ccc.de/congress/2014/Fahrplan/schedule.xml"'
-            buildConfigField "String", "SCHEDULE_DOMAIN_PART", '"http://events.ccc.de"'
+        c3wpw16 {
+            applicationId "net.wireloss.android.fahrplan.pw16"
+            signingConfig signingConfigs.c3wpw16
+            buildConfigField "String", "TICKETS_URL", '"https://privacyweek.at/tickets-pw16.html"'
+            buildConfigField "String", "SCHEDULE_URL", '"https://fahrplan.privacyweek.at/schedule.xml"'
+            buildConfigField "String", "SCHEDULE_DOMAIN_PART", '"https://fahrplan.privacyweek.at"'
             buildConfigField "String", "SCHEDULE_EVENT_PART", '"/events/%1$s.html"'
-            buildConfigField "String", "SCHEDULE_PART", '"/congress/2014/Fahrplan"'
-            buildConfigField "String", "VENUE", '"cch"'
-            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_YEAR", "2014"
-            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_MONTH", "12"
-            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_DAY", "27"
-            buildConfigField "int", "SCHEDULE_LAST_DAY_END_YEAR", "2014"
-            buildConfigField "int", "SCHEDULE_LAST_DAY_END_MONTH", "12"
-            buildConfigField "int", "SCHEDULE_LAST_DAY_END_DAY", "31"
-            buildConfigField "String", "SCHEDULE_FEEDBACK_URL", '"https://frab.cccv.de/en/31C3/public/events/%s/feedback/new"'
-        }
-        camp2015 {
-            applicationId "nerd.tuxmobil.fahrplan.camp"
-            signingConfig signingConfigs.camp2015
-            buildConfigField "String", "SCHEDULE_URL", '"https://events.ccc.de/camp/2015/Fahrplan/schedule.xml"'
-            buildConfigField "String", "SCHEDULE_DOMAIN_PART", '"http://events.ccc.de"'
-            buildConfigField "String", "SCHEDULE_EVENT_PART", '"/events/%1$s.html"'
-            buildConfigField "String", "SCHEDULE_PART", '"/camp/2015/Fahrplan"'
-            buildConfigField "String", "VENUE", '"mildenberg"'
-            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_YEAR", "2015"
-            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_MONTH", "8"
-            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_DAY", "13"
-            buildConfigField "int", "SCHEDULE_LAST_DAY_END_YEAR", "2015"
-            buildConfigField "int", "SCHEDULE_LAST_DAY_END_MONTH", "8"
-            buildConfigField "int", "SCHEDULE_LAST_DAY_END_DAY", "17"
-            buildConfigField "String", "SCHEDULE_FEEDBACK_URL", '"https://frab.cccv.de/en/camp2015/public/events/%s/feedback/new"'
-        }
-        ccc32c3 {
-            applicationId "nerd.tuxmobil.fahrplan.congress"
-            signingConfig signingConfigs.ccc32c3
-            buildConfigField "String", "SCHEDULE_URL", '"https://streaming.media.ccc.de/configs/conferences/32c3/tuxmobil.xml"'
-            buildConfigField "String", "SCHEDULE_DOMAIN_PART", '"https://events.ccc.de"'
-            buildConfigField "String", "SCHEDULE_EVENT_PART", '"/events/%1$s.html"'
-            buildConfigField "String", "SCHEDULE_PART", '"/congress/2015/Fahrplan"'
-            buildConfigField "String", "VENUE", '"cch"'
-            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_YEAR", "2015"
-            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_MONTH", "12"
-            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_DAY", "27"
-            buildConfigField "int", "SCHEDULE_LAST_DAY_END_YEAR", "2015"
-            buildConfigField "int", "SCHEDULE_LAST_DAY_END_MONTH", "12"
-            buildConfigField "int", "SCHEDULE_LAST_DAY_END_DAY", "31"
-            buildConfigField "String", "SCHEDULE_FEEDBACK_URL", '"https://frab.cccv.de/en/32C3/public/events/%s/feedback/new"'
+            buildConfigField "String", "SCHEDULE_PART", '""'
+            buildConfigField "String", "VENUE", '"Volkskundemuseum"'
+            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_YEAR", "2016"
+            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_MONTH", "10"
+            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_DAY", "24"
+            buildConfigField "int", "SCHEDULE_LAST_DAY_END_YEAR", "2016"
+            buildConfigField "int", "SCHEDULE_LAST_DAY_END_MONTH", "10"
+            buildConfigField "int", "SCHEDULE_LAST_DAY_END_DAY", "30"
+            buildConfigField "String", "SCHEDULE_FEEDBACK_URL", '"https://cfp.privacyweek.at/en/pw16/public/events/%s/feedback/new"'
         }
     }
 

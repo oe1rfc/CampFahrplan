@@ -26,6 +26,7 @@
     <string name="choose_day">Tag wählen</string>
     <string name="day">Tag</string>
     <string name="about">Info</string>
+    <string name="tickets">Tickets</string>
     <string name="fahrplan">Fahrplan</string>
     <string name="appVersion">App Version %s</string>
     <string name="aktualisiert_auf">Aktualisiert auf %s</string>

@@ -8,6 +8,13 @@
             android:title="@string/refresh">
     </item>
     <item
+        android:id="@+id/item_tickets"
+        android:icon="@drawable/ic_menu_about"
+        android:orderInCategory="0"
+        android:title="@string/tickets"
+        android:titleCondensed="@string/tickets">
+    </item>
+    <item
         android:id="@+id/item_starred_list"
         android:title="@string/action_show_starred_lectures"
         android:titleCondensed="@string/action_show_starred_lectures"

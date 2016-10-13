@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <color name="pressed_congress">#CC0099AB</color>
+
+	<!-- Datenschutz	ds -->
+	<color name="event_border_default_ds">#9DDA22</color>
+	<color name="event_border_highlight_ds">#B7EE47</color>
+	<color name="event_border_accent_ds">#B7EE47</color>
+	<color name="event_border_accent_highlight_ds">#C4F466</color>
+
+	<!-- Tracking	tr -->
+	<color name="event_border_default_tr">#E9C725</color>
+	<color name="event_border_highlight_tr">#FFE04C</color>
+	<color name="event_border_accent_tr">#FFE04C</color>
+	<color name="event_border_accent_highlight_tr">#FFEC8F</color>
+    
+	<!-- Behörden und Unternehmen	bu -->
+	<color name="event_border_default_bu">#FFAE6B</color>
+	<color name="event_border_highlight_bu">#FFC18F</color>
+	<color name="event_border_accent_bu">#FFC18F</color>
+	<color name="event_border_accent_highlight_bu">#FFD9BA</color>
+
+	<!-- Verschlüsselung	en -->
+	<color name="event_border_default_en">#FF6B6B</color>
+	<color name="event_border_highlight_en">#FF8F8F</color>
+	<color name="event_border_accent_en">#FF8F8F</color>
+	<color name="event_border_accent_highlight_en">#FFBABA</color>
+
+	<!-- Default state .primary3-4 -->
+	<color name="event_border_default">#5F7EC6</color>
+	<color name="event_border_highlight">#85A0DD</color>
+	<color name="event_border_accent">#85A0DD</color>
+	<color name="event_border_accent_highlight">#B6C7F0</color>
+
+	<!-- Digital Life	dl -->
+	<color name="event_border_default_dl">#9F59C6</color>
+	<color name="event_border_highlight_dl">#BC80DC</color>
+	<color name="event_border_accent_dl">#BC80DC</color>
+	<color name="event_border_accent_highlight_dl">#DAB2F0</color>
+
+	<!-- Privatsphäre im digitalen Zeitalter	pp -->
+	<color name="event_border_default_pp">#7A62C9</color>
+	<color name="event_border_highlight_pp">#9C88DE</color>
+	<color name="event_border_accent_pp">#9C88DE</color>
+	<color name="event_border_accent_highlight_pp">#C5B7F1</color>
+
+	<!-- Media Literacy	ml -->
+	<color name="event_border_default_ml">#5F7EC6</color>
+	<color name="event_border_highlight_ml">#85A0DD</color>
+	<color name="event_border_accent_ml">#85A0DD</color>
+	<color name="event_border_accent_highlight_ml">#B6C7F0</color>
+
+
+    <!--Title color-->
+    <color name="event_title">#A0ffffff</color>
+    <color name="event_title_highlight">#F0ffffff</color>
+</resources>

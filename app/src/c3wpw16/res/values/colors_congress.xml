@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pressed_congress">#CC0099AB</color>
+
+
+	<!-- Default state -->
+	<color name="event_border_default">#ba68c8</color>
+	<color name="event_border_highlight">#ce93d8</color>
+	<color name="event_border_accent">#e1bee7</color>
+	<color name="event_border_accent_highlight">#f3e5f5</color>
+
+	<!-- Verschlüsselung	en -->
+	<color name="event_border_default_en">#f06292</color>
+	<color name="event_border_highlight_en">#f48fb1</color>
+	<color name="event_border_accent_en">#f8bbd0</color>
+	<color name="event_border_accent_highlight_en">#fce4ec</color>
+
+	<!-- Tracking	tr -->
+	<color name="event_border_default_tr">#9575cd</color>
+	<color name="event_border_highlight_tr">#b39ddb</color>
+	<color name="event_border_accent_tr">#d1c4e9</color>
+	<color name="event_border_accent_highlight_tr">#ede7f6</color>
+
+	<!-- Behörden und Unternehmen	bu -->
+	<color name="event_border_default_bu">#7986cb</color>
+	<color name="event_border_highlight_bu">#9fa8da</color>
+	<color name="event_border_accent_bu">#c5cae9</color>
+	<color name="event_border_accent_highlight_bu">#e8eaf6</color>
+
+	<!-- Privatsphäre im digitalen Zeitalter	pp -->
+	<color name="event_border_default_pp">#039be5</color>
+	<color name="event_border_highlight_pp">#4fc3f7</color>
+	<color name="event_border_accent_pp">#81d4fa</color>
+	<color name="event_border_accent_highlight_pp">#b3e5fc</color>
+
+	<!-- Datenschutz	ds -->
+	<color name="event_border_default_ds">#2196f3</color>
+	<color name="event_border_highlight_ds">#64b5f6</color>
+	<color name="event_border_accent_ds">#90caf9</color>
+	<color name="event_border_accent_highlight_ds">#bbdefb</color>
+
+	<!-- Media Literacy	ml -->
+	<color name="event_border_default_ml">#0097a7</color>
+	<color name="event_border_highlight_ml">#4dd0e1</color>
+	<color name="event_border_accent_ml">#80deea</color>
+	<color name="event_border_accent_highlight_ml">#b2ebf2</color>
+
+	<!-- Digital Life	dl -->
+	<color name="event_border_default_dl">#009688</color>
+	<color name="event_border_highlight_dl">#4db6ac</color>
+	<color name="event_border_accent_dl">#80cbc4</color>
+	<color name="event_border_accent_highlight_dl">#b2dfdb</color>
+
+
+    <!--Title color-->
+    <color name="event_title">#fff</color>
+    <color name="event_title_highlight">#000</color>
+</resources>

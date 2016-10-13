@@ -22,6 +22,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ProgressBar;
+import android.net.Uri;
 
 import nerd.tuxmobil.fahrplan.congress.CustomHttpClient.HTTP_STATUS;
 import nerd.tuxmobil.fahrplan.congress.FahrplanContract.FragmentTags;
@@ -328,6 +329,10 @@ public class MainActivity extends AppCompatActivity implements
         about.show(ft, "about");
     }
 
+    void ticketsButton() {
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(BuildConfig.TICKETS_URL)));
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         Intent intent;
@@ -337,6 +342,9 @@ public class MainActivity extends AppCompatActivity implements
                 return true;
             case R.id.item_about:
                 aboutDialog();
+                return true;
+            case R.id.item_tickets:
+                ticketsButton();
                 return true;
             case R.id.item_alarms:
                 intent = new Intent(this, AlarmList.class);
